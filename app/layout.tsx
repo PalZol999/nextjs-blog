@@ -8,7 +8,7 @@ import Image from 'next/image'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'InToTheVoid',
+  title: 'In2DaVoid',
   description: 'Tech Blog',
   icons: {
     icon: '/invader_icon.ico',
@@ -25,16 +25,15 @@ export default function RootLayout({children
 
   const header = (
     <>
-         <header>
+         
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
-    
         <Image alt="" src="/invader_icon_215138.ico" width={41} height={41} className='mx-auto'/>
         <Link href="/">
           <h1 className="text-2xl text-white font-bold mt-4">In_2_Da_Void</h1>
         </Link>
         <p className="text-slate-300">🤟 Welcome to my tech blog. 💻</p>
       </div>
-    </header>
+ 
     </>
  
   )
@@ -47,6 +46,7 @@ export default function RootLayout({children
       </div>
     </footer>
   )
+
   return (
     <html lang="en">
       <head>
@@ -54,8 +54,15 @@ export default function RootLayout({children
   href='/invader_icon.ico'
   sizes="<generated>" /> 
    </head>
-  
       <body className={inter.className}>
+
+      <header className='navbar bg-slate-800 h-20 flex items-center text-2xl text-white font-bold'>
+  <div className="navbar bg-base-100">
+    <a className="btn btn-ghost normal-case text-xl">
+      <Link href="/">Tech_BLOG</Link></a>
+  </div>
+</header>
+
       <div className="mx-auto  max-w-2xl px-6">  
           {header}
           {children}
