@@ -28,7 +28,7 @@ export default function RootLayout({children
          <header>
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
     
-        <Image alt="" src="/invader_icon_215138.ico" width={40} height={40} className='mx-auto'/>
+        <Image alt="" src="/invader_icon_215138.ico" width={41} height={41} className='mx-auto'/>
         <Link href="/">
           <h1 className="text-2xl text-white font-bold mt-4">In_2_Da_Void</h1>
         </Link>
