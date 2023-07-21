@@ -29,7 +29,7 @@ export default function RootLayout({children
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
         <Image alt="" src="/invader_icon_215138.ico" width={41} height={41} className='mx-auto'/>
         <Link href="/">
-          <h1 className="text-2xl text-white font-bold mt-4">In_2_Da_Void</h1>
+          <h1 className="text-2xl text-white font-bold mt-4">In2_Da_Void</h1>
         </Link>
         <p className="text-slate-300">🤟 Welcome to my tech blog. 💻</p>
       </div>
@@ -56,7 +56,7 @@ export default function RootLayout({children
    </head>
       <body className={inter.className}>
 
-      <header className='navbar bg-slate-800 h-20 flex items-center text-2xl text-white font-bold'>
+      <header className='navbar bg-slate-800 h-20 flex items-center text-2xl text-white font-bold sticky top-0 z-50'>
   <div className="navbar bg-base-100">
     <a className="btn btn-ghost normal-case text-xl">
       <Link href="/">Tech_BLOG</Link></a>
