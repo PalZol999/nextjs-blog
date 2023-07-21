@@ -57,11 +57,29 @@ export default function RootLayout({children
       <body className={inter.className} style={{ backgroundColor: 'yellow' }}>
 
       <header className='navbar bg-slate-800 h-20 flex items-center text-2xl text-white font-bold sticky top-0 z-50'>
-  <div className="navbar bg-base-100">
-    <a className="btn btn-ghost normal-case text-xl pl-4">
-      <Link href="/">Tech_BLOG</Link></a>
+  <div className="navbar bg-base-100 flex items-center justify-between px-4 w-full">
+    <div className="flex items-center">
+      <a className="btn btn-ghost normal-case text-xl" href="/">
+        Tech_BLOG
+      </a>
+    </div>
+    <div className="flex items-center">
+      <a href="https://github.com/PalZol999" target="_blank" rel="noopener noreferrer">
+        <img
+          src="wgit.png"
+          alt="Git Logo"
+          className="w-8 h-8"
+        />
+      </a>
+      <a className="btn btn-ghost normal-case text-xl px-4" href="https://luminous-gingersnap-f8a604.netlify.app/">
+        About Me
+      </a>
+    </div>
   </div>
 </header>
+
+
+
 
       <div className="mx-auto  max-w-2xl px-6">  
           {header}
