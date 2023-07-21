@@ -54,11 +54,11 @@ export default function RootLayout({children
   href='/invader_icon.ico'
   sizes="<generated>" /> 
    </head>
-      <body className={inter.className}>
+      <body className={inter.className} style={{ backgroundColor: 'yellow' }}>
 
       <header className='navbar bg-slate-800 h-20 flex items-center text-2xl text-white font-bold sticky top-0 z-50'>
   <div className="navbar bg-base-100">
-    <a className="btn btn-ghost normal-case text-xl">
+    <a className="btn btn-ghost normal-case text-xl pl-4">
       <Link href="/">Tech_BLOG</Link></a>
   </div>
 </header>
