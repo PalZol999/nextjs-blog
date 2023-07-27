@@ -29,8 +29,9 @@ export default function RootLayout({children
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
         <Image alt="" src="/invader_icon_215138.ico" width={41} height={41} className='mx-auto'/>
         <Link href="/">
-          <h1 className="text-2xl text-white font-bold mt-4">In2_Da_Void</h1>
+          <h1 className="text-5xl text-white font-bold mt-4">In2_Da_Void</h1>
         </Link>
+        <br/>
         <p className="text-slate-300">🤟 Welcome to my tech blog. 💻</p>
       </div>
  
@@ -66,7 +67,7 @@ export default function RootLayout({children
     <div className="flex items-center">
       <a href="https://github.com/PalZol999" target="_blank" rel="noopener noreferrer">
         <img
-          src="wgit.png"
+          src="/wgit.png"
           alt="Git Logo"
           className="w-8 h-8"
         />

@@ -3,6 +3,7 @@ title: "4 Reasons to Start This Blog"
 subtitle: "The journal of a true beginner"
 date: "2023-07-21"
 ---
+<div style="corbel; font-size:2">
 <div>
 <b> #That must lead somewhere...</b>
 </div>
@@ -47,3 +48,6 @@ Now, let's dive into the four reasons why I decided to start this blog:
 
  <br>
 So, here we are, with the first content and first upload. I hope to create many more posts in the future. Until then, I'll continue practicing, learning, staying informed, and keeping track of the ever-evolving tech world.
+ <br>
+ <br>
+ </div>
